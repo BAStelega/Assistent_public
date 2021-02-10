@@ -2896,7 +2896,7 @@ Detector=true
                <VisibilityConditionValue>Да</VisibilityConditionValue>
                <VisibilityConditionVariable>ip_change</VisibilityConditionVariable>
                <Type>FixedString</Type>
-               <IsAdvanced>1</IsAdvanced>
+               <IsAdvanced>0</IsAdvanced>
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>FixedString</AllowedTypes>
@@ -2911,7 +2911,7 @@ Detector=true
                <VisibilityConditionValue>Да</VisibilityConditionValue>
                <VisibilityConditionVariable>ip_change</VisibilityConditionVariable>
                <Type>FixedString</Type>
-               <IsAdvanced>1</IsAdvanced>
+               <IsAdvanced>0</IsAdvanced>
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>FixedString</AllowedTypes>
