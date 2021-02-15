@@ -2272,8 +2272,8 @@ section(1 /*1*/,RESOURCE_1 /*{{starts}}*/,10000 /*10000*/,0,function(){
    _if(RESOURCE_724352,function(){
    section_insert()
       section_start("", 855016844)!
-      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCg0LXQttC40Lwg0YTQvtGA0LzQu9C10L3QuNGPINC30LDQutCw0LfQsCDQsdC10Lcg0L7Qv9C70LDRgtGLIiwiY2xhc3MiOiJzdHJpbmcifV19*/
-      log("Режим формления заказа без оплаты")
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCg0LXQttC40Lwg0L7RhNC+0YDQvNC70LXQvdC40Y8g0LfQsNC60LDQt9CwINCx0LXQtyDQvtC/0LvQsNGC0YsiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      log("Режим оформления заказа без оплаты")
       section_end()!
 
       section_start("", 717081403)!
