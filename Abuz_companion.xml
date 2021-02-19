@@ -5,6 +5,98 @@
 
    section_end()!
 
+   section_start("\u007b\u0022n\u0022:\u0022changeIP\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 171660126)!
+   function changeIP()
+   {
+   section_insert()
+      section_start("\u007b\u0022c\u0022:\u00222\u0022,\u0022f\u0022:true\u007d", 185356255)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0lQIGNoYW5nZX19ID09IFwid2ViIHByb3h5XCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+      RS("IP change", false, false)!
+      RESOURCE_921463 = _result().get()
+      _if(RESOURCE_921463 == "web proxy",function(){
+      section_insert()
+         section_start("", 176545139)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCY0YHQv9C+0LvRjNC30YPQtdC8INC/0YDQvtC60YHQuCA6IHt7d2ViIHByb3h5fX0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         RS("web proxy", false, false)!
+         RESOURCE_746368 = _result().get()
+         log("Используем прокси : " + RESOURCE_746368)
+         section_end()!
+
+         section_start("", 444262494)!
+         /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e3dlYiBwcm94eX19IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUHJveHlUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUHJveHlMb2dpbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUHJveHlQYXNzd29yZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlVGltZXpvbmUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VHZW9sb2NhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZmFsc2UiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VXZWJydGNJcCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZUJyb3dzZXJMYW5ndWFnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkRldGVjdEV4dGVybmFsSXAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJJcEluZm9NZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImRhdGFiYXNlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSXBBcGlLZXkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IiJ9LHsiaWQiOiJUYXJnZXRVcmwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUYXJnZXRUYWJOdW1iZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         RS("web proxy", false, false)!
+         RESOURCE_794638 = _result().get()
+         /*Browser*/
+         var hash = proxy_parse(RESOURCE_794638)
+         if("http" != "auto" ){
+         hash["IsHttp"] = "http" == "http"
+         }
+         var login = ""
+         var password = ""
+         if(login.length > 0 && password.length > 0 )
+         {
+         hash["name"] = login
+         hash["password"] = password
+         }
+         if(_get_profile().length > 0)
+         {
+         if(hash["server"].length == 0)
+         {
+         native("filesystem", "removefile", _get_profile() + "/proxy.txt")
+         }else
+         {
+         var PortNumber = hash["Port"]
+         hash["Port"] = hash["Port"].toString()
+         native("filesystem", "writefile", JSON.stringify({path: _get_profile() + "/proxy.txt",value: JSON.stringify(hash),base64:false,append:false}))
+         hash["Port"] = PortNumber
+         }
+         }
+         set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
+         sleep(1000)!
+         set_proxy_extended("true" == "true", "false" == "true", "true" == "true", "true" == "true", "true" == "true", "database", "", null)!
+         section_end()!
+
+         section_start("", 768465493)!
+         /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJpcC5iYWJsb3NvZnQuY29tIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+         /*Browser*/
+         load_instant("ip.bablosoft.com")!
+         section_end()!
+
+      })!
+      section_end()!
+
+      section_start("\u007b\u0022c\u0022:\u00224\u0022,\u0022f\u0022:true\u007d", 868961754)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0lQIGNoYW5nZX19ID09IFwiUm91dGVyXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+      RS("IP change", false, false)!
+      RESOURCE_661044 = _result().get()
+      _if(RESOURCE_661044 == "Router",function(){
+      section_insert()
+         section_start("", 688365331)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCh0LzQtdC90LAgSVAg0L3QsCDRgNC+0YPRgtC10YDQtSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         log("Смена IP на роутере")
+         section_end()!
+
+      })!
+      section_end()!
+
+      section_start("\u007b\u0022c\u0022:\u00223\u0022,\u0022f\u0022:true\u007d", 481502356)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0lQIGNoYW5nZX19ID09IFwiNEcgbW9kZW1cIiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      RS("IP change", false, false)!
+      RESOURCE_959882 = _result().get()
+      _if(RESOURCE_959882 == "4G modem",function(){
+      section_insert()
+         section_start("", 333859345)!
+         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im1vZGVtNEdSZXN0YXJ0In1dfQ==*/
+         _call_function(modem4GRestart,{})!
+         _result_function()
+         section_end()!
+
+      })!
+      section_end()!
+
+   }
+   section_end()!
+
    section_start("\u007b\u0022n\u0022:\u0022images_off\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 376916688)!
    function images_off()
    {
@@ -152,89 +244,10 @@
    })!
    section_end()!
 
-   section_start("\u007b\u0022c\u0022:\u00222\u0022\u007d", 772912879)!
-   /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0lQIGNoYW5nZX19ID09IFwid2ViIHByb3h5XCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
-   RS("IP change", false, false)!
-   RESOURCE_921463 = _result().get()
-   _if(RESOURCE_921463 == "web proxy",function(){
-   section_insert()
-      section_start("", 403423805)!
-      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCY0YHQv9C+0LvRjNC30YPQtdC8INC/0YDQvtC60YHQuCA6IHt7d2ViIHByb3h5fX0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-      RS("web proxy", false, false)!
-      RESOURCE_746368 = _result().get()
-      log("Используем прокси : " + RESOURCE_746368)
-      section_end()!
-
-      section_start("", 6493743)!
-      /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e3dlYiBwcm94eX19IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUHJveHlUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUHJveHlMb2dpbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUHJveHlQYXNzd29yZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlVGltZXpvbmUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VHZW9sb2NhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZmFsc2UiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VXZWJydGNJcCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZUJyb3dzZXJMYW5ndWFnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkRldGVjdEV4dGVybmFsSXAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJJcEluZm9NZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImRhdGFiYXNlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSXBBcGlLZXkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IiJ9LHsiaWQiOiJUYXJnZXRVcmwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUYXJnZXRUYWJOdW1iZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-      RS("web proxy", false, false)!
-      RESOURCE_794638 = _result().get()
-      /*Browser*/
-      var hash = proxy_parse(RESOURCE_794638)
-      if("http" != "auto" ){
-      hash["IsHttp"] = "http" == "http"
-      }
-      var login = ""
-      var password = ""
-      if(login.length > 0 && password.length > 0 )
-      {
-      hash["name"] = login
-      hash["password"] = password
-      }
-      if(_get_profile().length > 0)
-      {
-      if(hash["server"].length == 0)
-      {
-      native("filesystem", "removefile", _get_profile() + "/proxy.txt")
-      }else
-      {
-      var PortNumber = hash["Port"]
-      hash["Port"] = hash["Port"].toString()
-      native("filesystem", "writefile", JSON.stringify({path: _get_profile() + "/proxy.txt",value: JSON.stringify(hash),base64:false,append:false}))
-      hash["Port"] = PortNumber
-      }
-      }
-      set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
-      sleep(1000)!
-      set_proxy_extended("true" == "true", "false" == "true", "true" == "true", "true" == "true", "true" == "true", "database", "", null)!
-      section_end()!
-
-      section_start("", 920313193)!
-      /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJpcC5iYWJsb3NvZnQuY29tIiwiY2xhc3MiOiJzdHJpbmcifV19*/
-      /*Browser*/
-      load_instant("ip.bablosoft.com")!
-      section_end()!
-
-   })!
-   section_end()!
-
-   section_start("\u007b\u0022c\u0022:\u00224\u0022,\u0022f\u0022:true\u007d", 870224519)!
-   /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0lQIGNoYW5nZX19ID09IFwiUm91dGVyXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
-   RS("IP change", false, false)!
-   RESOURCE_661044 = _result().get()
-   _if(RESOURCE_661044 == "Router",function(){
-   section_insert()
-      section_start("", 746665105)!
-      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCh0LzQtdC90LAgSVAg0L3QsCDRgNC+0YPRgtC10YDQtSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-      log("Смена IP на роутере")
-      section_end()!
-
-   })!
-   section_end()!
-
-   section_start("\u007b\u0022c\u0022:\u00223\u0022,\u0022f\u0022:true\u007d", 220780599)!
-   /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0lQIGNoYW5nZX19ID09IFwiNEcgbW9kZW1cIiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
-   RS("IP change", false, false)!
-   RESOURCE_959882 = _result().get()
-   _if(RESOURCE_959882 == "4G modem",function(){
-   section_insert()
-      section_start("", 398202483)!
-      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im1vZGVtNEdSZXN0YXJ0In1dfQ==*/
-      _call_function(modem4GRestart,{})!
-      _result_function()
-      section_end()!
-
-   })!
+   section_start("", 628726360)!
+   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImNoYW5nZUlQIn1dfQ==*/
+   _call_function(changeIP,{})!
+   _result_function()
    section_end()!
 
    section_start("", 796810786)!
@@ -492,11 +505,11 @@ ProxiesReconnect=false
 AutostartDebug=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=307
+ToolboxHeight=589
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=467
+ScenarioWidth=682
 Zoom=100
 IsMaximized=false
 Restart=true
@@ -525,23 +538,20 @@ Detector=true
 --enable-widevine-cdm
 --enable-blink-features=WebBluetooth,Badging,InstalledApp,WakeLock,Notifications,WebAnimationsAPI,AOMPhase1</ChromeCommandLine>
      <ModulesMetaJson>{
-    &quot;Adress_random&quot;: true,
-    &quot;Adress_token&quot;: true,
     &quot;Archive&quot;: false,
-    &quot;Data_and_clock&quot;: false,
-    &quot;Excel&quot;: false,
-    &quot;FTP&quot;: false
+    &quot;FTP&quot;: false,
+    &quot;Excel&quot;: false
 }
 </ModulesMetaJson>
-     <OutputTitle1 ru="First Results" en="First Results"/>
-     <OutputTitle2 ru="Second Results" en="Second Results"/>
-     <OutputTitle3 ru="Third Results" en="Third Results"/>
-     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
-     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
-     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
-     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
-     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
-     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputTitle1 en="First Results" ru="First Results"/>
+     <OutputTitle2 en="Second Results" ru="Second Results"/>
+     <OutputTitle3 en="Third Results" ru="Third Results"/>
+     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
+     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
+     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
+     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
+     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
+     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -554,7 +564,7 @@ Detector=true
      <ModelList>
           <Model>
                <Name>log:pas</Name>
-               <Description ru="логины и пароли" en="log:pas"/>
+               <Description en="log:pas" ru="логины и пароли"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -578,7 +588,7 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>IP change</Name>
-               <Description ru="Смена IP" en="IP change"/>
+               <Description en="IP change" ru="Смена IP"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -597,7 +607,7 @@ Router</Values>
           <Defaults/>
           <Model>
                <Name>web proxy</Name>
-               <Description ru="прокси" en="web proxy"/>
+               <Description en="web proxy" ru="прокси"/>
                <SectionName ru=""/>
                <VisibilityConditionValue>web proxy</VisibilityConditionValue>
                <VisibilityConditionVariable>IP change</VisibilityConditionVariable>
@@ -621,7 +631,7 @@ Router</Values>
           <Defaults>
                <Default>
                     <Name>web proxy</Name>
-                    <Description ru="прокси" en="web proxy"/>
+                    <Description en="web proxy" ru="прокси"/>
                     <SectionName ru=""/>
                     <VisibilityConditionValue>web proxy</VisibilityConditionValue>
                     <VisibilityConditionVariable>IP change</VisibilityConditionVariable>
