@@ -22,6 +22,58 @@
       wait_element(_SELECTOR)!
       section_end()!
 
+      section_start("", 426362385)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjk3ODAzNjA5LCJtYXN0ZXIiOjc1MDg1NTY3NSwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e3NlbGVjdENvdXBvbn19ID09PSBcIiQyMFwiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
+      RS("selectCoupon", false, false)!
+      RESOURCE_493528 = _result().get()
+      _cycle_params().if_else = RESOURCE_493528 === "$20";
+      _if(_cycle_params().if_else,function(){
+      section_insert()
+         section_start("", 945870935)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCR0YvQuyDQstGL0LHRgNCw0L0g0LrRg9C/0L7QvSAkMjAiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         log("Был выбран купон $20")
+         section_end()!
+
+         section_start("", 583904375)!
+         /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJTRUxFQ1RDT1VQT04ifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         VAR_SELECTCOUPON = "2"
+         section_end()!
+
+      })!
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 97803609)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6OTc4MDM2MDksIm1hc3RlciI6NDI2MzYyMzg1LCJpZl92YXIiOiJfY3ljbGVfcGFyYW1zKCkuaWZfZWxzZSIsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZkV4cHJlc3Npb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Int7c2VsZWN0Q291cG9ufX0gPT09IFwiJDIwXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+      _if(!_cycle_params().if_else,function(){
+      section_insert()
+         section_start("", 252167624)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCR0YvQuyDQstGL0LHRgNCw0L0g0LrRg9C/0L7QvSAkMTAiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         log("Был выбран купон $10")
+         section_end()!
+
+         section_start("", 1508120)!
+         /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJTRUxFQ1RDT1VQT04ifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         VAR_SELECTCOUPON = "1"
+         section_end()!
+
+      })!
+      delete _cycle_params().if_else;
+      section_end()!
+
+      section_start("", 169356011)!
+      /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiU3BlZWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJHcmF2aXR5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI2IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkRldmlhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMi41IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IDpudGgtY2hpbGQoNikgPiA6bnRoLWNoaWxkKDIpIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gOm50aC1jaGlsZCg2KSA+IDpudGgtY2hpbGQoMikiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDYpID4gLmdvQnRuX19fM2FWY2EiLCJjdXJyZW50IjoieHBhdGgiLCJtYXRjaCI6Ij5NQVRDSD48ZGl2IGNsYXNzPVwiZ29CdG5fX18zYVZjYVwiIHN0eWxlPVwibWFyZ2luIiwieHBhdGgiOiIgPlhQQVRIPi8vZGl2W0BjbGFzcz1cInJld2FyZExpc3RfX18xekJvdFwiXVsoW1tTRUxFQ1RDT1VQT05dXSldL2RpdltAY2xhc3M9XCJnb0J0bl9fXzNhVmNhXCJdIiwiYXQiOiI0NTQsIDU2OCIsIndlIjp0cnVlLCJmYSI6dHJ1ZX19*/
+      /*Browser*/
+      _SELECTOR = " \u003eXPATH\u003e//div[@class=\u0022rewardList___1zBot\u0022][(" + VAR_SELECTCOUPON + ")]/div[@class=\u0022goBtn___3aVca\u0022]";
+      wait_element_visible(_SELECTOR)!
+      _call(_random_point, {})!
+      _if(_result().length > 0, function(){
+      move( {} )!
+      get_element_selector(_SELECTOR, false).clarify(X,Y)!
+      _call(_clarify, {} )!
+      mouse(X,Y)!
+      })!
+      section_end()!
+
    }
    section_end()!
 
@@ -690,11 +742,11 @@ ProxiesReconnect=false
 AutostartDebug=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=74
+ToolboxHeight=187
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=506
+ScenarioWidth=700
 Zoom=90
 IsMaximized=false
 Restart=true
