@@ -690,11 +690,11 @@ ProxiesReconnect=false
 AutostartDebug=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=321
+ToolboxHeight=74
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=702
+ScenarioWidth=506
 Zoom=90
 IsMaximized=false
 Restart=true
@@ -829,5 +829,22 @@ Router</Values>
                     <NotEmpty>0</NotEmpty>
                </Default>
           </Defaults>
+          <Model>
+               <Name>selectCoupon</Name>
+               <Description en="selectCoupon" ru="Выбор купона"/>
+               <SectionName ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>Select</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>Select</AllowedTypes>
+               <Values>$10
+$20</Values>
+               <Selected>1</Selected>
+               <SelectType>1</SelectType>
+          </Model>
+          <Defaults/>
      </ModelList>
 </BrowserAutomationStudioProject>
