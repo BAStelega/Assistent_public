@@ -9,7 +9,7 @@
    function log_in()
    {
    section_insert()
-      section_start("\u007b\u0022f\u0022:true\u007d", 748937015)!
+      section_start("", 748937015)!
       /*Dat:eyJzIjoiZm9yIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZvckZyb20iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiRm9yVG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjUiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
       _do(function(){
       VAR_CYCLE_INDEX = _iterator() - 1 + parseInt(1)
@@ -507,6 +507,12 @@
    _result_function()
    section_end()!
 
+   section_start("\u007b\u0022n\u0022:\u0022us\u0022\u007d", 684847815)!
+   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2xvZ2luLmFsaWV4cHJlc3MuY29tL3NldENvbW1vbkNvb2tpZS5odG0/ZnJvbUFwcD1mYWxzZSZjdXJyZW5jeT1VU0QmcmVnaW9uPVVTJmJMb2NhbGU9ZW5fVVMmc2l0ZT1nbG8maXNiPXkiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+   /*Browser*/
+   load_instant("https://login.aliexpress.com/setCommonCookie.htm?fromApp=false\u0026currency=USD\u0026region=US\u0026bLocale=en_US\u0026site=glo\u0026isb=y")!
+   section_end()!
+
    section_start("\u007b\u0022n\u0022:\u0022Для отладки: ссылки на игру и разные куки\u0022,\u0022c\u0022:\u00222\u0022\u007d", 954590780)!
    /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxID09IDIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
    _if(1 == 2,function(){
@@ -643,7 +649,7 @@ ToolboxHeight=198
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=750
+ScenarioWidth=543
 Zoom=100
 IsMaximized=false
 Restart=true
