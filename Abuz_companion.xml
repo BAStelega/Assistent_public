@@ -5,6 +5,26 @@
 
    section_end()!
 
+   section_start("\u007b\u0022n\u0022:\u0022loadGame\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 649873336)!
+   function loadGame()
+   {
+   section_insert()
+      section_start("\u007b\u0022n\u0022:\u0022новая ссылка\u0022\u007d", 417850716)!
+      /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3NhbGUuYWxpZXhwcmVzcy5jb20vX19tb2JpbGUvZGFpbHlfY2FzaF9vdXRfbS5odG0gIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+      /*Browser*/
+      load_instant("https://sale.aliexpress.com/__mobile/daily_cash_out_m.htm ")!
+      section_end()!
+
+      section_start("", 971842851)!
+      /*Dat:eyJzIjoid2FpdGVsZW1lbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMSIsInV0aSI6IjUiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCg1KSA+IDpudGgtY2hpbGQoMSkiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCg1KSA+IDpudGgtY2hpbGQoMSkiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDUpID4gLnJld2FyZExpc3RMZWZ0Qm94X19fdDB5VnEiLCJjdXJyZW50IjoieHBhdGgiLCJtYXRjaCI6Ij5NQVRDSD48ZGl2IGNsYXNzPVwicmV3YXJkTGlzdExlZnRCb3hfX190MHlWcVwiPjwiLCJ4cGF0aCI6IiA+WFBBVEg+IC8vZGl2W0BjbGFzcz1cInJld2FyZExpc3RfX18xekJvdFwiXSIsImF0IjoiOTIsIDM0NSJ9fQ==*/
+      /*Browser*/
+      _SELECTOR = " \u003eXPATH\u003e //div[@class=\u0022rewardList___1zBot\u0022]";waiter_timeout_next(5000)
+      wait_element(_SELECTOR)!
+      section_end()!
+
+   }
+   section_end()!
+
    section_start("\u007b\u0022n\u0022:\u0022log_in\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 446668221)!
    function log_in()
    {
@@ -505,12 +525,6 @@
    _result_function()
    section_end()!
 
-   section_start("\u007b\u0022n\u0022:\u0022us\u0022\u007d", 684847815)!
-   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2xvZ2luLmFsaWV4cHJlc3MuY29tL3NldENvbW1vbkNvb2tpZS5odG0/ZnJvbUFwcD1mYWxzZSZjdXJyZW5jeT1VU0QmcmVnaW9uPVVTJmJMb2NhbGU9ZW5fVVMmc2l0ZT1nbG8maXNiPXkiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-   /*Browser*/
-   load_instant("https://login.aliexpress.com/setCommonCookie.htm?fromApp=false\u0026currency=USD\u0026region=US\u0026bLocale=en_US\u0026site=glo\u0026isb=y")!
-   section_end()!
-
    section_start("\u007b\u0022n\u0022:\u0022Разрешение\u005cnUA\u005cnЯзык\u0022\u007d", 796369058)!
    /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InJlc2l6ZSg2MDAsIDgwMCkhOyAvL9GB0LzQtdC90LAg0YDQsNC30YDQtdGI0LXQvdC40Y9cclxuaGVhZGVyKFwiVXNlci1BZ2VudFwiLCBcIk1vemlsbGEvNS4wIChpUGhvbmU7IENQVSBpUGhvbmUgT1MgMTNfMl8zIGxpa2UgTWFjIE9TIFgpIEFwcGxlV2ViS2l0LzYwNS4xLjE1IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi8xMy4wLjMgTW9iaWxlLzE1RTE0OCBTYWZhcmkvNjA0LjFcIikhOyAvL3VzZXJhZ2VudCBpcGhvbmVcclxuaGVhZGVyKFwiQWNjZXB0LUxhbmd1YWdlXCIsIFwiZW4tVVM7cT0wLjYsZW47cT0wLjRcIikhOyAvLyDRj9C30YvQuiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
    resize(600, 800)!; //смена разрешения
@@ -529,10 +543,38 @@
    _browser_mode(("true") == "true" ? "mobile" : "desktop")!
    section_end()!
 
-   section_start("\u007b\u0022n\u0022:\u0022новая ссылка\u0022\u007d", 408747617)!
-   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3NhbGUuYWxpZXhwcmVzcy5jb20vX19tb2JpbGUvZGFpbHlfY2FzaF9vdXRfbS5odG0gIiwiY2xhc3MiOiJzdHJpbmcifV19*/
-   /*Browser*/
-   load_instant("https://sale.aliexpress.com/__mobile/daily_cash_out_m.htm ")!
+   section_start("", 510950148)!
+   /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+   _call(function()
+   {
+   _on_fail(function(){
+   VAR_LAST_ERROR = _result()
+   VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+   VAR_WAS_ERROR = false
+   _break(1,true)
+   })
+   CYCLES.Current().RemoveLabel("function")
+   section_insert()
+      section_start("", 706115740)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImxvYWRHYW1lIn1dfQ==*/
+      _call_function(loadGame,{})!
+      _result_function()
+      section_end()!
+
+   },null)!
+   section_end()!
+
+   section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 402411597)!
+   /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+   _if(VAR_WAS_ERROR,function(){
+   section_insert()
+      section_start("", 417066682)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImxvYWRHYW1lIn1dfQ==*/
+      _call_function(loadGame,{})!
+      _result_function()
+      section_end()!
+
+   })!
    section_end()!
 
    section_start("\u007b\u0022n\u0022:\u0022Для отладки: ссылки на игру и разные куки\u0022,\u0022c\u0022:\u00222\u0022,\u0022f\u0022:true\u007d", 543678954)!
@@ -648,7 +690,7 @@ ProxiesReconnect=false
 AutostartDebug=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=363
+ToolboxHeight=321
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
