@@ -491,22 +491,46 @@
    load_instant("https://login.aliexpress.com/setCommonCookie.htm?fromApp=false\u0026currency=USD\u0026region=US\u0026bLocale=en_US\u0026site=glo\u0026isb=y")!
    section_end()!
 
-   section_start("\u007b\u0022n\u0022:\u0022Для отладки: ссылки на игру и разные куки\u0022,\u0022c\u0022:\u00222\u0022\u007d", 954590780)!
+   section_start("\u007b\u0022n\u0022:\u0022Разрешение\u005cnUA\u005cnЯзык\u0022\u007d", 796369058)!
+   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InJlc2l6ZSg2MDAsIDgwMCkhOyAvL9GB0LzQtdC90LAg0YDQsNC30YDQtdGI0LXQvdC40Y9cclxuaGVhZGVyKFwiVXNlci1BZ2VudFwiLCBcIk1vemlsbGEvNS4wIChpUGhvbmU7IENQVSBpUGhvbmUgT1MgMTNfMl8zIGxpa2UgTWFjIE9TIFgpIEFwcGxlV2ViS2l0LzYwNS4xLjE1IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi8xMy4wLjMgTW9iaWxlLzE1RTE0OCBTYWZhcmkvNjA0LjFcIikhOyAvL3VzZXJhZ2VudCBpcGhvbmVcclxuaGVhZGVyKFwiQWNjZXB0LUxhbmd1YWdlXCIsIFwiZW4tVVM7cT0wLjYsZW47cT0wLjRcIikhOyAvLyDRj9C30YvQuiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+   resize(600, 800)!; //смена разрешения
+   header("User-Agent", "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1")!; //useragent iphone
+   header("Accept-Language", "en-US;q=0.6,en;q=0.4")!; // язык
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022us\u0022\u007d", 830167521)!
+   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2xvZ2luLmFsaWV4cHJlc3MuY29tL3NldENvbW1vbkNvb2tpZS5odG0/ZnJvbUFwcD1mYWxzZSZjdXJyZW5jeT1VU0QmcmVnaW9uPVVTJmJMb2NhbGU9ZW5fVVMmc2l0ZT1nbG8maXNiPXkiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+   /*Browser*/
+   load_instant("https://login.aliexpress.com/setCommonCookie.htm?fromApp=false\u0026currency=USD\u0026region=US\u0026bLocale=en_US\u0026site=glo\u0026isb=y")!
+   section_end()!
+
+   section_start("", 922587341)!
+   /*Dat:eyJzIjoidG91Y2giLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRW5hYmxlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _browser_mode(("true") == "true" ? "mobile" : "desktop")!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022новая ссылка\u0022\u007d", 408747617)!
+   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3NhbGUuYWxpZXhwcmVzcy5jb20vX19tb2JpbGUvZGFpbHlfY2FzaF9vdXRfbS5odG0gIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   /*Browser*/
+   load_instant("https://sale.aliexpress.com/__mobile/daily_cash_out_m.htm ")!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022Для отладки: ссылки на игру и разные куки\u0022,\u0022c\u0022:\u00222\u0022,\u0022f\u0022:true\u007d", 543678954)!
    /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxID09IDIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
    _if(1 == 2,function(){
    section_insert()
-      section_start("", 483944322)!
+      section_start("", 297189099)!
       /*Dat:eyJzIjoiaHR0cGNsaWVudGdldCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly9zYWxlLmFsaWV4cHJlc3MuY29tL2RhaWx5LWNhc2gtb3V0LWdhbWluZy5odG0/X2FkZFNoYXJlPW5vIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSGVhZGVycyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTWV0aG9kIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJHRVQiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
       _switch_http_client_main()
       http_client_get_no_redirect2("https://sale.aliexpress.com/daily-cash-out-gaming.htm?_addShare=no",{method:("GET"),headers:("")})!
       section_end()!
 
-      section_start("", 977123063)!
+      section_start("", 778314851)!
       /*Dat:eyJzIjoidG91Y2giLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRW5hYmxlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifV19*/
       _browser_mode(("true") == "true" ? "mobile" : "desktop")!
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022proxy fiddler для отладки запросов\u0022\u007d", 670472335)!
+      section_start("\u007b\u0022n\u0022:\u0022proxy fiddler для отладки запросов\u0022\u007d", 318193009)!
       /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMjcuMC4wLjE6ODg4OCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5VHlwZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5TG9naW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5UGFzc3dvcmQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZVRpbWV6b25lIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlR2VvbG9jYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImZhbHNlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlV2VicnRjSXAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VCcm93c2VyTGFuZ3VhZ2UiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJEZXRlY3RFeHRlcm5hbElwIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSXBJbmZvTWV0aG9kIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJkYXRhYmFzZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklwQXBpS2V5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJGdW5jdGlvbk5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiIifSx7ImlkIjoiVGFyZ2V0VXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIqIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVGFyZ2V0VGFiTnVtYmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIqIiwiY2xhc3MiOiJzdHJpbmcifV19*/
       /*Browser*/
       var hash = proxy_parse("127.0.0.1:8888")
@@ -538,62 +562,38 @@
       set_proxy_extended("true" == "true", "false" == "true", "true" == "true", "true" == "true", "true" == "true", "database", "", null)!
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022us\u0022\u007d", 295228784)!
+      section_start("\u007b\u0022n\u0022:\u0022us\u0022\u007d", 937225404)!
       /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2xvZ2luLmFsaWV4cHJlc3MuY29tL3NldENvbW1vbkNvb2tpZS5odG0/ZnJvbUFwcD1mYWxzZSZjdXJyZW5jeT1VU0QmcmVnaW9uPVVTJmJMb2NhbGU9ZW5fVVMmc2l0ZT1nbG8maXNiPXkiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
       /*Browser*/
       load_instant("https://login.aliexpress.com/setCommonCookie.htm?fromApp=false\u0026currency=USD\u0026region=US\u0026bLocale=en_US\u0026site=glo\u0026isb=y")!
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022Ру кука\u0022\u007d", 132732495)!
+      section_start("\u007b\u0022n\u0022:\u0022Ру кука\u0022\u007d", 924234316)!
       /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2xvZ2luLmFsaWV4cHJlc3MuY29tL3NldENvbW1vbkNvb2tpZS5odG0/ZnJvbUFwcD10cnVlJmN1cnJlbmN5PVJVQiZyZWdpb249UlUmYl9sb2NhbGU9cnVfUlUmc2l0ZT1nbG8iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
       /*Browser*/
       load_instant("https://login.aliexpress.com/setCommonCookie.htm?fromApp=true\u0026currency=RUB\u0026region=RU\u0026b_locale=ru_RU\u0026site=glo")!
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022US кука с almid\u005cn\u0022\u007d", 71720033)!
+      section_start("\u007b\u0022n\u0022:\u0022US кука с almid\u005cn\u0022\u007d", 718694203)!
       /*Dat:eyJzIjoiamF2YXNjcmlwdCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJTQVZFRF9TQ1JJUFRfUkVTVUxUIn0seyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJkb2N1bWVudC5jb29raWUgPSBcImFlcF91c3VjX2Y9c2l0ZT1nbG8mcmVnaW9uPVVTJmJfbG9jYWxlPWVuX1VTJmlzYj15JmNfdHA9VVNEJnhfYWxpbWlkPTI7IHBhdGg9LzsgZG9tYWluPS5hbGlleHByZXNzLmNvbTtcIjsiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
       /*Browser*/
       page().script("document.cookie = \u0022aep_usuc_f=site=glo\u0026region=US\u0026b_locale=en_US\u0026isb=y\u0026c_tp=USD\u0026x_alimid=2; path=/; domain=.aliexpress.com;\u0022;")!
       VAR_SAVED_SCRIPT_RESULT = _result()
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022старая ссылка\u0022\u007d", 146145916)!
+      section_start("\u007b\u0022n\u0022:\u0022старая ссылка\u0022\u007d", 385095923)!
       /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2NhbXBhaWduLmFsaWV4cHJlc3MuY29tL3dvdy9nZi9jYXNoZGFpbHlvdXRjL2luZGV4IiwiY2xhc3MiOiJzdHJpbmcifV19*/
       /*Browser*/
       load_instant("https://campaign.aliexpress.com/wow/gf/cashdailyoutc/index")!
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022новая ссылка\u0022\u007d", 810691491)!
+      section_start("\u007b\u0022n\u0022:\u0022новая ссылка\u0022\u007d", 833637731)!
       /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3NhbGUuYWxpZXhwcmVzcy5jb20vX19tb2JpbGUvZGFpbHlfY2FzaF9vdXRfbS5odG0gIiwiY2xhc3MiOiJzdHJpbmcifV19*/
       /*Browser*/
       load_instant("https://sale.aliexpress.com/__mobile/daily_cash_out_m.htm ")!
       section_end()!
 
    })!
-   section_end()!
-
-   section_start("\u007b\u0022n\u0022:\u0022Разрешение\u005cnUA\u005cnЯзык\u0022\u007d", 796369058)!
-   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InJlc2l6ZSg2MDAsIDgwMCkhOyAvL9GB0LzQtdC90LAg0YDQsNC30YDQtdGI0LXQvdC40Y9cclxuaGVhZGVyKFwiVXNlci1BZ2VudFwiLCBcIk1vemlsbGEvNS4wIChpUGhvbmU7IENQVSBpUGhvbmUgT1MgMTNfMl8zIGxpa2UgTWFjIE9TIFgpIEFwcGxlV2ViS2l0LzYwNS4xLjE1IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi8xMy4wLjMgTW9iaWxlLzE1RTE0OCBTYWZhcmkvNjA0LjFcIikhOyAvL3VzZXJhZ2VudCBpcGhvbmVcclxuaGVhZGVyKFwiQWNjZXB0LUxhbmd1YWdlXCIsIFwiZW4tVVM7cT0wLjYsZW47cT0wLjRcIikhOyAvLyDRj9C30YvQuiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-   resize(600, 800)!; //смена разрешения
-   header("User-Agent", "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1")!; //useragent iphone
-   header("Accept-Language", "en-US;q=0.6,en;q=0.4")!; // язык
-   section_end()!
-
-   section_start("\u007b\u0022n\u0022:\u0022us\u0022\u007d", 830167521)!
-   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2xvZ2luLmFsaWV4cHJlc3MuY29tL3NldENvbW1vbkNvb2tpZS5odG0/ZnJvbUFwcD1mYWxzZSZjdXJyZW5jeT1VU0QmcmVnaW9uPVVTJmJMb2NhbGU9ZW5fVVMmc2l0ZT1nbG8maXNiPXkiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-   /*Browser*/
-   load_instant("https://login.aliexpress.com/setCommonCookie.htm?fromApp=false\u0026currency=USD\u0026region=US\u0026bLocale=en_US\u0026site=glo\u0026isb=y")!
-   section_end()!
-
-   section_start("", 922587341)!
-   /*Dat:eyJzIjoidG91Y2giLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRW5hYmxlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifV19*/
-   _browser_mode(("true") == "true" ? "mobile" : "desktop")!
-   section_end()!
-
-   section_start("\u007b\u0022n\u0022:\u0022новая ссылка\u0022\u007d", 408747617)!
-   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3NhbGUuYWxpZXhwcmVzcy5jb20vX19tb2JpbGUvZGFpbHlfY2FzaF9vdXRfbS5odG0gIiwiY2xhc3MiOiJzdHJpbmcifV19*/
-   /*Browser*/
-   load_instant("https://sale.aliexpress.com/__mobile/daily_cash_out_m.htm ")!
    section_end()!
 
 })!]]></Script>
@@ -632,8 +632,8 @@ ToolboxHeight=198
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=543
-Zoom=100
+ScenarioWidth=806
+Zoom=90
 IsMaximized=false
 Restart=true
 UseHumanLikeMouseMoves=true
@@ -660,7 +660,12 @@ Detector=true
 --ignore-certificate-errors
 --enable-widevine-cdm
 --enable-blink-features=WebBluetooth,Badging,InstalledApp,WakeLock,Notifications,WebAnimationsAPI,AOMPhase1</ChromeCommandLine>
-     <ModulesMetaJson>{&quot;Adress_random&quot;:false,&quot;Adress_tokken&quot;:false,&quot;Archive&quot;:false,&quot;Excel&quot;:false,&quot;FTP&quot;:false,&quot;Images_off&quot;:true}</ModulesMetaJson>
+     <ModulesMetaJson>{
+    &quot;Archive&quot;: false,
+    &quot;FTP&quot;: false,
+    &quot;Excel&quot;: false
+}
+</ModulesMetaJson>
      <OutputTitle1 en="First Results" ru="First Results"/>
      <OutputTitle2 en="Second Results" ru="Second Results"/>
      <OutputTitle3 en="Third Results" ru="Third Results"/>
