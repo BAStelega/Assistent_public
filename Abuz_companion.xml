@@ -194,6 +194,11 @@
       },null)!
       section_end()!
 
+      section_start("", 283439287)!
+      /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fbWFudWFsX2Jyb3dzZXJfY29udHJvbCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+      _manual_browser_control("")!
+      section_end()!
+
    }
    section_end()!
 
@@ -397,10 +402,30 @@
             load_instant("https://coupon.aliexpress.com/buyer/coupon/listView.htm")!
             section_end()!
 
-            section_start("", 283858490)!
-            /*Dat:eyJzIjoid2FpdGZ1bGxsb2FkIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+            section_start("", 132878254)!
+            /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+            sleep(1000)!
+            section_end()!
+
+            section_start("", 286663041)!
+            /*Dat:eyJzIjoidXJsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlNhdmVVcmwiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkNVUlJFTlRfVVJMIn1dfQ==*/
             /*Browser*/
-            wait_async_load()!
+            url()!
+            VAR_CURRENT_URL = _result()
+            section_end()!
+
+            section_start("", 681084993)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NVUlJFTlRfVVJMXV0uaW5kZXhPZihcImxvZ2luXCIpID49IDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+            _if(VAR_CURRENT_URL.indexOf("login") >= 0,function(){
+            section_insert()
+               section_start("", 374966526)!
+               /*Dat:eyJzIjoid2FpdGVsZW1lbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMSIsInV0aSI6IjUiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjZm0tbG9naW4tcGFzc3dvcmQiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiAjZm0tbG9naW4tcGFzc3dvcmQiLCJjc3MyIjoiID5DU1M+IDpudGgtY2hpbGQoMikgPiBpbnB1dCIsImNzczMiOiIiLCJjdXJyZW50IjoieHBhdGgiLCJtYXRjaCI6Ij5NQVRDSD48aW5wdXQgY2xhc3M9XCJmbS10ZXh0XCIgdHlwZT1cInBhc3N3b3JkXCIgaSIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJmbS1sb2dpbi1wYXNzd29yZFwiKSIsImF0IjoiMjY1LCAyMzgifX0=*/
+               /*Browser*/
+               _SELECTOR = " \u003eXPATH\u003e id(\u0022fm-login-password\u0022)";waiter_timeout_next(5000)
+               wait_element(_SELECTOR)!
+               section_end()!
+
+            })!
             section_end()!
 
             section_start("\u007b\u0022n\u0022:\u0022User info\u0022\u007d", 940359527)!
@@ -927,26 +952,63 @@
    _result_function()
    section_end()!
 
-   section_start("", 955285430)!
-   /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl9jYWxsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6InNsYXZlIn0seyJpZCI6IlJlc3VsdFRocmVhZElkIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfSUQifSx7ImlkIjoiRGVzaXJlZFRocmVhZElkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiQ2xvc2VUaHJlYWRBZnRlckZ1bmN0aW9uRW5kcyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik9uSWRsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoid2FpdCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1heFRocmVhZHMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiVGhyZWFkTGlzdCIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiVEhSRUFEX0xJU1QifV19*/
-   VAR_THREAD_ID = 0
-   if(VAR_THREAD_ID <= 0)
-   {
-   VAR_THREAD_ID = Math.floor(Math.random() * 1000000) + 1;
-   }
-   if(typeof(VAR_THREAD_LIST) == "undefined")
-   {
-   VAR_THREAD_LIST = [];
-   }
-   if((VAR_THREAD_LIST).indexOf(VAR_THREAD_ID) < 0)
-   (VAR_THREAD_LIST).push(VAR_THREAD_ID)
-   _thread_start(VAR_THREAD_ID, 0 == 0, "slave", {}, ("true") == "true", 30, "wait" != "wait")!
+   section_start("", 450327203)!
+   /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJTTEFWRSJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   VAR_SLAVE = "1"
    section_end()!
 
-   section_start("", 886588243)!
-   /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl93YWl0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIxMDAwMDAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlRocmVhZElkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RIUkVBRF9MSVNUXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-   waiter_timeout_next(100000000)
-   _thread_wait(VAR_THREAD_LIST)!
+   section_start("", 147898457)!
+   /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1NMQVZFXV0gPT0gMSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+   _do(function(){
+   VAR_CYCLE_INDEX = _iterator() - 1
+   BREAK_CONDITION = VAR_SLAVE == 1;
+   if(!BREAK_CONDITION)_break();
+   section_insert()
+      section_start("", 493333715)!
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCi0LXQutGD0YnQtdC1INC/0L7QstGC0L7RgNC10L3QuNC1INGG0LjQutC70LAgOiBbW0NZQ0xFX0lOREVYXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      log("Текущее повторение цикла : " + VAR_CYCLE_INDEX)
+      section_end()!
+
+      section_start("", 899583014)!
+      /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl9jYWxsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6InNsYXZlIn0seyJpZCI6IlJlc3VsdFRocmVhZElkIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfSUQifSx7ImlkIjoiRGVzaXJlZFRocmVhZElkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiQ2xvc2VUaHJlYWRBZnRlckZ1bmN0aW9uRW5kcyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik9uSWRsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoid2FpdCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1heFRocmVhZHMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiVGhyZWFkTGlzdCIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiVEhSRUFEX0xJU1QifV19*/
+      VAR_THREAD_ID = 0
+      if(VAR_THREAD_ID <= 0)
+      {
+      VAR_THREAD_ID = Math.floor(Math.random() * 1000000) + 1;
+      }
+      if(typeof(VAR_THREAD_LIST) == "undefined")
+      {
+      VAR_THREAD_LIST = [];
+      }
+      if((VAR_THREAD_LIST).indexOf(VAR_THREAD_ID) < 0)
+      (VAR_THREAD_LIST).push(VAR_THREAD_ID)
+      _thread_start(VAR_THREAD_ID, 0 == 0, "slave", {}, ("true") == "true", 30, "wait" != "wait")!
+      section_end()!
+
+      section_start("", 801925075)!
+      /*Dat:eyJzIjoiYXN5bmNmdW5jdGlvbl93YWl0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIxMDAwMDAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlRocmVhZElkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RIUkVBRF9MSVNUXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      waiter_timeout_next(100000000)
+      _thread_wait(VAR_THREAD_LIST)!
+      section_end()!
+
+      section_start("", 194076209)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+      _if(1,function(){
+      section_insert()
+         section_start("", 296944860)!
+         /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJTTEFWRSJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+         VAR_SLAVE = "0"
+         section_end()!
+
+      })!
+      section_end()!
+
+   })!
+   section_end()!
+
+   section_start("", 201738205)!
+   /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fbWFudWFsX2Jyb3dzZXJfY29udHJvbCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _manual_browser_control("")!
    section_end()!
 
    section_start("\u007b\u0022n\u0022:\u0022Для отладки: ссылки на игру и разные куки\u0022,\u0022c\u0022:\u00222\u0022,\u0022f\u0022:true\u007d", 543678954)!
@@ -1062,11 +1124,11 @@ ProxiesReconnect=false
 AutostartDebug=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=613
+ToolboxHeight=187
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=597
+ScenarioWidth=532
 Zoom=90
 IsMaximized=false
 Restart=true
@@ -1094,16 +1156,21 @@ Detector=true
 --ignore-certificate-errors
 --enable-widevine-cdm
 --enable-blink-features=WebBluetooth,Badging,InstalledApp,WakeLock,Notifications,WebAnimationsAPI,AOMPhase1</ChromeCommandLine>
-     <ModulesMetaJson>{&quot;Adress_random&quot;:false,&quot;Adress_tokken&quot;:false,&quot;Archive&quot;:false,&quot;Excel&quot;:false,&quot;FTP&quot;:false,&quot;Images_off&quot;:true}</ModulesMetaJson>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <ModulesMetaJson>{
+    &quot;Archive&quot;: false,
+    &quot;FTP&quot;: false,
+    &quot;Excel&quot;: false
+}
+</ModulesMetaJson>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -1116,7 +1183,7 @@ Detector=true
      <ModelList>
           <Model>
                <Name>log:pas</Name>
-               <Description en="log:pas" ru="логины и пароли"/>
+               <Description ru="логины и пароли" en="log:pas"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -1140,7 +1207,7 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>IP change</Name>
-               <Description en="IP change" ru="Смена IP"/>
+               <Description ru="Смена IP" en="IP change"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -1159,7 +1226,7 @@ Router</Values>
           <Defaults/>
           <Model>
                <Name>web proxy</Name>
-               <Description en="web proxy" ru="прокси"/>
+               <Description ru="прокси" en="web proxy"/>
                <SectionName ru=""/>
                <VisibilityConditionValue>web proxy</VisibilityConditionValue>
                <VisibilityConditionVariable>IP change</VisibilityConditionVariable>
@@ -1183,7 +1250,7 @@ Router</Values>
           <Defaults>
                <Default>
                     <Name>web proxy</Name>
-                    <Description en="web proxy" ru="прокси"/>
+                    <Description ru="прокси" en="web proxy"/>
                     <SectionName ru=""/>
                     <VisibilityConditionValue>web proxy</VisibilityConditionValue>
                     <VisibilityConditionVariable>IP change</VisibilityConditionVariable>
@@ -1198,7 +1265,7 @@ Router</Values>
           </Defaults>
           <Model>
                <Name>selectCoupon</Name>
-               <Description en="selectCoupon" ru="Выбор купона"/>
+               <Description ru="Выбор купона" en="selectCoupon"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -1215,7 +1282,7 @@ $20</Values>
           <Defaults/>
           <Model>
                <Name>buddies slave old</Name>
-               <Description en="buddies slave old" ru="Старореги с заказами"/>
+               <Description ru="Старореги с заказами" en="buddies slave old"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -1239,7 +1306,7 @@ $20</Values>
           <Defaults/>
           <Model>
                <Name>buddies slave new</Name>
-               <Description en="buddies slave new" ru="Новореги "/>
+               <Description ru="Новореги " en="buddies slave new"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
